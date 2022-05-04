@@ -1,0 +1,37 @@
+/* Блок "section", 6-й блок с анимационной картинкой-ссылкой */
+
+.cover {
+  max-width: 1184px;
+  margin: 0 auto 92px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.cover::after {
+  content: '';
+  width: 0;
+  height: 0;
+  padding-bottom: 62.5%;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 516px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+}
+

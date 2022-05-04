@@ -1,0 +1,8 @@
+/* Элемент "p" основной текст списока туристических фактов */
+
+.intro__paragraph {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}

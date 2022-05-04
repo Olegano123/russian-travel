@@ -1,0 +1,24 @@
+/* Блок "section", 5-й блок с карточками туристических мест */
+
+.places {
+  max-width: 984px;
+  margin: 0 auto 92px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    margin: 0 48px 92px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    margin: 0 24px 90px 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .places {
+    margin: 0 0 66px 0;
+  }
+}

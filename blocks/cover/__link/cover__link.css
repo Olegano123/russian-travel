@@ -1,0 +1,17 @@
+/* Элемент "a", общая область ссылки  */
+
+.cover__link {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: rgb(42, 44, 47, 0.3);
+  transition: .3s ease-in-out;
+}
+
+.cover__link:hover {
+  background: rgb(42, 44, 47, 0.8);
+}

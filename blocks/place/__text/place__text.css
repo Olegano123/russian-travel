@@ -1,0 +1,8 @@
+/* Блок "div", коробка для текста */
+
+@media (max-width: 400px) {
+  .place__text {
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}

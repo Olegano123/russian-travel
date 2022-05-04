@@ -1,0 +1,27 @@
+/* Блок "header", шапка сайта, основной блок с вложенными элементами */
+
+.header {
+  max-width: calc(100% - 96px);
+  margin: 28px auto 56px;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin: 28px auto 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: calc(100% - 48px);
+    margin: 28px auto 48px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    max-width: calc(100% - 32px);
+    margin: 16px auto 48px;
+  }
+}

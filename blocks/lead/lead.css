@@ -1,0 +1,26 @@
+/* Блок "section", 2-й блок с информацией о путешествиях по России */
+
+.lead {
+  max-width: 984px;
+  margin: 0 auto 92px;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 450px) {
+  .lead {
+    margin-bottom: 64px;
+  }
+}
+

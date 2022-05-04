@@ -1,0 +1,22 @@
+/* Элемент "img", картинка карточки  */
+
+.place__image {
+  max-width: 460px;
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+
+  }
+}
+@media (max-width: 635px) {
+  .place__image {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+/* Элемент "img" - логотип в левом верхнем углу экрана */
+
+.header__logo {
+  max-width: 176px;
+  max-height: 52px;
+  margin: 0;
+}
+
+@media (max-width: 450px) {
+  .header__logo {
+    max-width: 142px;
+    max-height: 42px;
+  }
+}

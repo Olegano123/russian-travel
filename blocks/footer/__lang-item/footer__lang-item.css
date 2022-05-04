@@ -1,0 +1,16 @@
+.footer__lang-item {
+  margin: 0 18px 0 0;
+
+}
+.footer__lang-item:last-child {
+  margin: 0;
+}
+
+@media (max-width: 516px) {
+  .footer__lang-item {
+    margin: 0 0 32px 0;
+  }
+  .footer__lang-item:last-child {
+    margin: 0;
+  }
+}

@@ -1,0 +1,11 @@
+/* Подблок "div", блок с ссылками на источники  */
+
+.place__website {
+  align-self: end;
+}
+
+@media (max-width: 400px) {
+  .place__website {
+    margin: 0 16px 0 16px;
+  }
+}

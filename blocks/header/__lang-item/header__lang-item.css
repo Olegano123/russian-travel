@@ -1,0 +1,9 @@
+/* Элемент "li", список переключателя русского и английского языка */
+
+.header__lang-item {
+  margin-right: 18px;
+}
+
+.header__lang-item:last-of-type {
+  margin-right: 0;
+}

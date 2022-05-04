@@ -1,0 +1,34 @@
+/* Блок "div", грид-сетка с внутренними блоками карточки  */
+
+.place {
+  margin: 0 auto 80px auto;
+  display: grid;
+  grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
+  grid-gap: 48px 40px;
+}
+
+.place:last-child {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px 32px;
+  }
+}
+@media (max-width: 768px) {
+  .place {
+    margin-bottom: 73px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 48px 28px;
+  }
+}
+@media (max-width: 400px) {
+  .place {
+    margin-bottom: 50px;
+    grid-template-columns: 1fr;
+    grid-gap: 32px 0;
+  }
+}
+

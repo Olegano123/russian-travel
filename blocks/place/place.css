@@ -21,7 +21,7 @@
   .place {
     margin-bottom: 73px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 48px 28px;
+    grid-gap: 48px 16px;
   }
 }
 @media (max-width: 400px) {

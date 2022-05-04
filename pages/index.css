@@ -1,7 +1,7 @@
-/* Подключение шрифтов к проекту */
-@import url(../font/font.css);
 /* Подключение normalize к проекту */
-@import url(../styles/normalize.css);
+@import url(../vendor/normalize.css);
+/* Подключение шрифтов к проекту */
+@import url(../vendor/font/font.css);
 /* Основной блок div */
 @import url(../blocks/page/page.css);
 /* Блок header */
